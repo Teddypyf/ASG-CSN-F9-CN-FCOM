@@ -15,6 +15,7 @@
 \usepackage{titlesec}
 \usepackage{hyperref}
 
+
 %bibLatex(引用)
 \usepackage[
 backend=bibtex,
@@ -57,7 +58,9 @@ backend=bibtex,
 \lhead{{CSN F9} \\ {飞行机组操作手册}}
 \rfoot{第\hspace{1pt} \thepage \hspace{1pt} 页}
 
-
+\newlength{\evenmarginwidth}
+\setlength{\evenmarginwidth}{\evensidemargin+2em}
+\fancyhfoffset{\evenmarginwidth}
 
 %CC license
 \usepackage[
@@ -68,6 +71,13 @@ version={4.0},
 
 %文字填充
 \usepackage{zhlipsum}
+
+%自定义命令
+\input{command.tex}
+
+%关闭段落起始缩进
+\setlength{\parindent}{0em}
+\setlength{\hoffset}{1em}
 
 
 
@@ -90,14 +100,14 @@ version={4.0},
 
 %正文
 \addcontentsline{toc}{section}{GEN 综合信息}
-\section*{综合信息}
+\section*{{\hspace{-1em}综合信息}}
 \addcontentsline{toc}{subsection}{术语表}
-\framebox[\textwidth]{\textbf{术语表}}
+\hspace{-2em}\framebox[\textwidth+4em]{\textbf {术语表}}
  
 \vspace{10pt}
-{\large{\uline{导航}}}
+{\hspace{-1em}\textbf{\uline{导航}}}
 {\small{
-\begin{longtable}{|p{4.5cm}|p{10cm}|}
+\begin{longtable}{|p{4.5cm}|p{\textwidth-6.5cm}|}
 	\hline
 	Nav                             & 导航      \\ \hline
 	Navigation                      & 导航      \\ \hline
@@ -174,6 +184,43 @@ version={4.0},
 	Rendez-vous                     & 会合      \\ \hline
 	Clearance                       & 净空      \\ \hline
 \end{longtable}}}
+\newpage
 
+
+
+
+
+
+
+
+
+
+\hspace{-2em}\framebox[\textwidth+4em]{\textbf {冷启动}}
+
+
+{\hspace{-1em}\textbf{\uline{电气系统}}}
+
+\checklistline{重要汇流条电压}{检查}
+
+\checklistline{ESSPU 电池充电}{检查}
+
+\checklistline{ESCU 电池电量}{检查}
+
+\checklistline{SRPS1电门}{接通}
+
+\checklistlinewithast{港口电源电门}{ON}
+
+\vspace{0.75em}\hspace{1em}\parbox{\textwidth-1em}{将主汇流条接入空间站电网。
+	注意：空间站侧的供电（400 V 和 21 kV）可通过
+	『轨道服务』界面控制。默认两路
+	均开启。}\vspace{0.75em}
+	
+	外部绕机检查确保飞机整体状态、可视部件和设备对于飞行是安全的。
+	每次首次飞行前，通常维护人员做全面检查，如果维护人员不在，可由飞行机组完
+	成。
+	
+
+\textbox{热启动}
+\checklisttext[3]{将主汇流条接入空间站电网。注意：空间站侧的供电（400 V 和 21 kV）可通过}
 
 \end{document}
