@@ -44,8 +44,7 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>CSN_F9_FCOM.aux</file>
-      <file>CSN_F9_FCOM-blx.bib</file>
+      <file>CSN_F9_FCOM.bcf</file>
     </provides>
     <requires type="dynamic">
       <file>CSN_F9_FCOM.bbl</file>
@@ -54,24 +53,23 @@
       <file>blx-dm.def</file>
       <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
+      <file>danish.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
-    <generic>bibtex</generic>
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex</binary>
-      <option>-min-crossrefs 2</option>
+      <binary>biber</binary>
       <infile>CSN_F9_FCOM</infile>
     </cmdline>
     <input>
-      <file>CSN_F9_FCOM.aux</file>
+      <file>CSN_F9_FCOM.bcf</file>
     </input>
     <output>
       <file>CSN_F9_FCOM.bbl</file>
@@ -80,13 +78,7 @@
       <file>CSN_F9_FCOM.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>CSN_F9_FCOM.aux</file>
-      <file>CSN_F9_FCOM-blx.bib</file>
-    </requires>
-    <requires type="editable">
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
+      <file>CSN_F9_FCOM.bcf</file>
     </requires>
   </external>
 </requests>

@@ -1,2 +1,2 @@
+\babel@toc {english}{}\relax 
 \contentsline {section}{GEN 综合信息}{2}{Doc-Start}%
-\contentsline {subsection}{术语表}{2}{section*.1}%

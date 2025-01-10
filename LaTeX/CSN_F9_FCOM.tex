@@ -1,226 +1,280 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt,a4paper]{book}
 \linespread{1.5}
-\usepackage{graphicx} % Required for inserting images
+\usepackage[headheight=15pt,bottom=2cm,top=2cm,left=1.25cm,right=1.25cm]{geometry}
 \usepackage{xeCJK}
-\usepackage[utf8]{inputenc} 
+\usepackage[danish,english]{babel}
+\usepackage{csquotes}
+\usepackage{graphicx} % Required for inserting images
 \usepackage{amsmath,amssymb,amsfonts,mathrsfs,latexsym,amsthm}
-\usepackage{ulem}
-\usepackage{graphicx}
+\usepackage{thmtools}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage{subcaption}
 \usepackage{titlepic}
+\usepackage{titlesec}
 \usepackage{enumerate}
 \usepackage{enumitem}
-\usepackage{float}
-\usepackage{gensymb} %温度符号
-\usepackage[margin=1.0in]{geometry}
-\usepackage{titlesec}
-\usepackage{hyperref}
-
-
-%bibLatex(引用)
-\usepackage[
-backend=bibtex,
-]{biblatex}
-%Table(表格)
 \usepackage[table,xcdraw]{xcolor}
-\usepackage{longtable}
+\usepackage{float}
+\usepackage{gensymb} %giver temperatursymboler
+\usepackage{titling} %calling the title and author
+\usepackage[datesep={$/$},style=ddmmyyyy]{datetime2}
+\usepackage{zhnumber}
+\usepackage{nicematrix}
+\usepackage{dirtytalk}
 
-%图形
+%font
+\usepackage[scale=1.05,subscriptcorrection,upint]{notomath}
+\setmainfont[Scale=1,BoldFont={Noto Serif},ItalicFont={Noto Serif Light Italic}]{Noto Serif Light}
+\setsansfont[Scale=1,BoldFont={Noto Sans},ItalicFont={Noto Sans Light Italic}]{Noto Sans Light}
+\setmonofont[Scale=1]{MapleMono-NF-CN-Light}
+
+\setCJKmainfont[AutoFakeBold=3,AutoFakeSlant=0.15,Scale=1]{ZhuqueFangsong-Regular}
+\setCJKfallbackfamilyfont{\CJKrmdefault}[AutoFakeBold=3,AutoFakeSlant=0.2,Scale=1]{NotoSerifCJKsc-Regular}
+\setCJKsansfont[Scale=1]{SarasaGothicSC-Light.ttf}
+\setCJKmonofont[Scale=1]{MapleMono-NF-CN-Regular}
+
+%bibLatex
+\usepackage{biblatex}
+%Table
 \usepackage{pstricks}
-%\usepackage{ntheorem}
 \usepackage{pgfpages}
-%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm]
-%\usepackage{floatflt}
-%pakke til at lave sætningsenvorinmets (kan ikke loades sammen med amsthm)
-\usepackage{tikz}
 
-%电路图
+%Kemi
+\usepackage[version=4]{mhchem}
+
+%framed box
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{theorems}
+
+%circuit diagrams
 \usepackage{fontawesome}
 \usepackage{pgf}
 \usepackage{mathrsfs}
-\usetikzlibrary{arrows}
+\usepackage{tikz}
+\usepackage{tikzsymbols}
+\usetikzlibrary{cd}
+\usetikzlibrary{babel}
 \usepackage{multicol}
 \usepackage{multirow}
 
-%化学
-\usepackage[version=4]{mhchem}
+%import
+\usepackage{import}
 
-%定理,证明环境
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
-\newtheorem{sætning}[definition]{Sætning}
-\newtheorem{hypothesis}[definition]{Hypotese}
-\newtheorem*{bemærkning}{Bemærkning}
+%hyperref
+\usepackage[hidelinks,colorlinks=true,linkcolor=桃红]{hyperref}
 
-%页码,页脚页眉
+%Indent
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+%color
+\definecolor{invpurple}{HTML}{40ffbf}
+% 水
+\providecolor{水蓝}{HTML}{d2f0f4}
+% 蓝
+\providecolor{靛蓝}{HTML}{065279}
+\providecolor{靛青}{HTML}{177cb0}
+\providecolor{绀青}{HTML}{003371}
+% 红
+\providecolor{桃红}{HTML}{f47983}
+\providecolor{品红}{HTML}{f00056}
+\providecolor{丹}{HTML}{ff4e20}
+% 绿
+\providecolor{绿沈}{HTML}{0c8918}
+\providecolor{青碧}{HTML}{48c0a3}
+\providecolor{缥}{HTML}{7fecad}
+\providecolor{艾绿}{HTML}{a4e2c6}
+\providecolor{嫩绿}{HTML}{bddd22}
+\providecolor{青白}{HTML}{c0ebd7}
+% 黄
+\providecolor{姜黄}{HTML}{ffc773}
+\providecolor{橙色}{HTML}{fa8c35}
+% 灰
+\providecolor{苍白}{HTML}{d1d9e0}
+\providecolor{苍青}{HTML}{7397ab}
+% 黑
+\providecolor{漆黑}{HTML}{161823}
+\providecolor{墨色}{HTML}{50616d}
+% 白
+\providecolor{莹白}{HTML}{e3f9fd}
+\providecolor{雪白}{HTML}{f2fdff}
+\providecolor{月白}{HTML}{d6ecf0}
+\providecolor{花白}{HTML}{c2ccd0}
+\providecolor{灰白}{HTML}{f0f0f4}
+
+
+%Theorem og Definition
+\declaretheoremstyle[within=section,spaceabove=3pt,spacebelow=3pt,headfont=\normalfont\color{绀青},notefont=\normalfont, notebraces={(}{)},bodyfont=\normalfont, headpunct={:},postheadspace=0.5em]{bluethm}
+
+\declaretheoremstyle[within=section,spaceabove=3pt,spacebelow=3pt,headfont=\normalfont\color{桃红},notefont=\normalfont, notebraces={(}{)},bodyfont=\normalfont, headpunct={:},postheadspace=0.5em]{peachredthm}
+
+\declaretheoremstyle[within=section,spaceabove=3pt,spacebelow=3pt,headfont=\normalfont\color{丹},notefont=\normalfont, notebraces={(}{)},bodyfont=\normalfont, headpunct={:},postheadspace=0.5em]{danredthm}
+
+\declaretheoremstyle[within=section,spaceabove=3pt,spacebelow=3pt,headfont=\normalfont\color{绿沈!50!青碧},notefont=\normalfont, notebraces={(}{)},bodyfont=\normalfont, headpunct={:},postheadspace=0.5em]{greenthm}
+
+\declaretheoremstyle[within=section,spaceabove=3pt,spacebelow=3pt,headfont=\normalfont\color{姜黄},notefont=\normalfont, notebraces={(}{)},bodyfont=\normalfont, headpunct={:},postheadspace=0.5em]{yellowthm}
+
+\AtBeginDocument{\renewcommand\proofname{{\color{绀青!65!绿沈}Proof}}}
+%English
+\theoremstyle{bluethm}
+\newtheorem{theorem}{Theorem}[subsection]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{danredthm}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{greenthm}
+\newtheorem*{remark}{Remark}
+\newtheorem{formula}[theorem]{formula}
+%Chinese
+\theoremstyle{bluethm}
+\newtheorem{theorem_ch}[theorem]{定理}
+\newtheorem{corollary_ch}[theorem]{推论}
+\newtheorem{lemma_ch}[theorem]{引理}
+\theoremstyle{danredthm}
+\newtheorem{definition_ch}[theorem]{定义}
+\theoremstyle{greenthm}
+\newtheorem*{remark_ch}{注意}
+\newtheorem{formula_ch}[theorem]{公式}
+%dansk
+\newtheorem{theorem_da}[theorem]{Sætning}
+\newtheorem{corollary_da}[theorem]{Korollar}
+\newtheorem{lemma_da}[theorem]{Lemma}
+\newtheorem{definition_da}[theorem]{Definition}
+\newtheorem*{remark_da}{Bemækning}
+
+
+
+%提示/注意/警告
+\newtcolorbox{vborderline}[1]{
+	skin=empty,
+	top=0pt,
+	bottom=0pt,
+	toprule=0pt,
+	bottomrule=0pt,
+	leftrule=0pt,
+	rightrule=0pt,
+	borderline west={3.5pt}{0pt}{#1},
+}
+% 提示
+\newenvironment{提醒}
+{\begin{vborderline}{靛蓝}
+		\parbox{2.75em}{\textcolor{靛蓝}{\vspace{2pt}{提醒: }}}
+	}
+	{\end{vborderline}}
+
+\newenvironment{attention}
+{\begin{vborderline}{靛蓝}
+		\parbox{4.5em}{\textcolor{靛蓝}{\vspace{2pt}{Attention: }}}
+	}
+	{\end{vborderline}}
+
+\newenvironment{attention_ch}
+{\begin{vborderline}{靛蓝}
+		\parbox{2.75em}{\textcolor{靛蓝}{\vspace{2pt}{提醒: }}}
+	}
+	{\end{vborderline}}
+
+% 提醒
+\newenvironment{注意}
+{\begin{vborderline}{橙色}
+		\parbox{2.75em}{\textcolor{橙色}{\vspace{2pt}{注意：}}}
+	}
+	{\end{vborderline}}
+
+\newenvironment{caution}
+{\begin{vborderline}{橙色}
+		\parbox{4.5em}{\textcolor{橙色}{\vspace{2pt}{Caution：}}}
+	}
+	{\end{vborderline}}
+
+\newenvironment{caution_ch}
+{\begin{vborderline}{橙色}
+		\parbox{2.75em}{\textcolor{橙色}{\vspace{2pt}{注意：}}}
+	}
+	{\end{vborderline}}
+% 注意
+\newenvironment{警告}
+{\begin{vborderline}{丹}
+		\parbox{2.75em}{\textcolor{丹}{\vspace{2pt}{警告：}}}
+	}
+	{\end{vborderline}}
+
+\newenvironment{warning}
+{\begin{vborderline}{丹}
+		\parbox{4.5em}{\textcolor{丹}{\vspace{2pt}{Warning：}}}
+	}
+	{\end{vborderline}}
+
+\newenvironment{warning_ch}
+{\begin{vborderline}{丹}
+		\parbox{2.75em}{\textcolor{丹}{\vspace{2pt}{警告：}}}
+	}
+	{\end{vborderline}}
+
+
+%page number
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+
+%pagehead,pagefoot
 \fancyhf{}
-\lhead{{CSN F9} \\ {飞行机组操作手册}}
-\rfoot{第\hspace{1pt} \thepage \hspace{1pt} 页}
+\setlength{\headheight}{30pt}
+\lhead{CSN F9\\飞行机组操作手册}
+\chead{}
+\rhead{}
+\rfoot{第\thepage 页}
+\pagenumbering{gobble}
 
-\newlength{\evenmarginwidth}
-\setlength{\evenmarginwidth}{\evensidemargin+2em}
-\fancyhfoffset{\evenmarginwidth}
+%document version
+\newcommand{\mydocumentversion}{Version $\myversion$}
+\newcommand{\mydocumentversionCH}{第 $\myversion$ 版}
 
-%CC license
+%build time
+\newcommand{\buildtime}{Build at \DTMNow}
+\newcommand{\buildtimeCH}{编译时间: \zhtoday \zhcurrtime}
+
+\newcommand{\DUtitle}[1]{\framebox[\linewidth]{{\large \textbf{#1}}}\\}
+\newcommand{\clitem}[3][0em]{\hspace*{#1} #2 \dotfill #3 \\}
+\newcommand{\clitemast}[3][0em]{\hspace*{#1} ${\ast} \text{#2}$ \dotfill #3 \\}
+\newcommand{\clultitle}[2][0em]{\hspace*{#1} \underline{\textbf{#2}} \\}
+\newcommand{\clbsqtitle}[2][0em]{\hspace*{#1} ${\blacksquare} \text{ #2}$ \\}
+\newcommand{\clbctitle}[2][0em]{\hspace*{#1} ${\bullet} \text{ #2}$ \\}
 \usepackage[
 type={CC},
-modifier={by},
+modifier={by-sa},
 version={4.0},
 ]{doclicense}
 
-%文字填充
-\usepackage{zhlipsum}
+%opening
+\title{CSN F9 飞行机组操作手册}
+\author{Teddypyf}
+\date{\today}
+\def\myversion{0.0.0}
 
-%自定义命令
-\input{command.tex}
-
-%关闭段落起始缩进
-\setlength{\parindent}{0em}
-\setlength{\hoffset}{1em}
-
-
-
-\begin{document}		
-%封面
-\input{titlepage.tex}
-\newpage
-
-%页脚页眉初始化
-\pagenumbering{arabic}
-\pagestyle{fancy}
-\setcounter{page}{1}
-
-%目录
-\renewcommand*\contentsname{目录}
-\tableofcontents
-\newpage
-
-
-
-%正文
-\addcontentsline{toc}{section}{GEN 综合信息}
-\section*{{\hspace{-1em}综合信息}}
-\addcontentsline{toc}{subsection}{术语表}
-\hspace{-2em}\framebox[\textwidth+4em]{\textbf {术语表}}
- 
-\vspace{10pt}
-{\hspace{-1em}\textbf{\uline{导航}}}
-{\small{
-\begin{longtable}{|p{4.5cm}|p{\textwidth-6.5cm}|}
-	\hline
-	Nav                             & 导航      \\ \hline
-	Navigation                      & 导航      \\ \hline
-	Maneuvers                       & 机动      \\ \hline
-	Mvr                             & 机动      \\ \hline
-	Jumps                           & 跳跃      \\ \hline
-	flight plan                     & 飞行计划    \\ \hline
-	Flight Planning                 & 飞行规划    \\ \hline
-	Prograde                        & 顺向      \\ \hline
-	apoapsis                        & 远拱点     \\ \hline
-	periapsis                       & 近拱点     \\ \hline
-	Plane                           & 平面      \\ \hline
-	Burn                            & 点火      \\ \hline
-	DeltaV                          & 速增量     \\ \hline
-	Translation                     & 平移      \\ \hline
-	guidance                        & 制导      \\ \hline
-	Jump-Space                      & 跳跃空间    \\ \hline
-	Jump-Space polarization         & 跳跃空间极化  \\ \hline
-	jump-point                      & 跳跃点     \\ \hline
-	Modulation                      & 调制      \\ \hline
-	Course Correction               & 航线修正    \\ \hline
-	trajectory propagator           & 轨迹预报模型  \\ \hline
-	Routine                         & 例程      \\ \hline
-	NavTask                         & 导航任务    \\ \hline
-	Route                           & 航路      \\ \hline
-	Route Finder                    & 航路查询器   \\ \hline
-	refueling stop                  & 经停加注    \\ \hline
-	Navigation Station              & 导航站     \\ \hline
-	Automatic Flight Planner        & 自动飞行规划器 \\ \hline
-	Flight Editor                   & 飞行编辑器   \\ \hline
-	Flight Analyzer                 & 飞行分析器   \\ \hline
-	Jump Explorer                   & 跳跃浏览器   \\ \hline
-	Sweep                           & 扫掠      \\ \hline
-	leg                             & 航节      \\ \hline
-	segment                         & 航段      \\ \hline
-	ringed planets                  & 有环行星    \\ \hline
-	ring station                    & 星环空间站   \\ \hline
-	true anomaly                    & 真近点角    \\ \hline
-	encounter                       & 交会      \\ \hline
-	celestial body                  & 天体      \\ \hline
-	Orbital Elements                & 轨道根数    \\ \hline
-	Epoch                           & 历元      \\ \hline
-	semi major axis                 & 半长轴     \\ \hline
-	eccentricity                    & 离心率     \\ \hline
-	inclination                     & 倾角      \\ \hline
-	longitude of the ascending node & 升交点经度   \\ \hline
-	lan                             & 升交点经度   \\ \hline
-	argument of the periapsis       & 近心点辐角   \\ \hline
-	tra                             & 真近点角    \\ \hline
-	rms                             & 均方根     \\ \hline
-	rms                             & 均方根误差   \\ \hline
-	Dilution of Precision           & 精度衰减因子  \\ \hline
-	Dead Reckoning                  & 航位推算法   \\ \hline
-	planned trajectory              & 预定轨迹    \\ \hline
-	radio emission                  & 射电辐射    \\ \hline
-	ETE                             & 预计航路时间  \\ \hline
-	SOI                             & 影响球     \\ \hline
-	Coordinated Galactic Time       & 协调银河时   \\ \hline
-	B-Plane                         & B 平面    \\ \hline
-	Intercept                       & 拦截      \\ \hline
-	Propagation                     & 预报      \\ \hline
-	jump approach                   & 跳跃点进近   \\ \hline
-	intermediate orbit              & 中间轨道    \\ \hline
-	agp                             & 近点辐角    \\ \hline
-	sma                             & 半长轴     \\ \hline
-	ecc                             & 离心率     \\ \hline
-	peD                             & 近拱点距    \\ \hline
-	apD                             & 远拱点距    \\ \hline
-	inc                             & 倾角      \\ \hline
-	Orbital period                  & 轨道周期    \\ \hline
-	jump-point locator              & 跳跃点定位标  \\ \hline
-	ETA                             & 预达时间    \\ \hline
-	RDV                             & 会合      \\ \hline
-	Rendez-vous                     & 会合      \\ \hline
-	Clearance                       & 净空      \\ \hline
-\end{longtable}}}
-\newpage
-
-
-
-
-
-
-
-
-
-
-\hspace{-2em}\framebox[\textwidth+4em]{\textbf {冷启动}}
-
-
-{\hspace{-1em}\textbf{\uline{电气系统}}}
-
-\checklistline{重要汇流条电压}{检查}
-
-\checklistline{ESSPU 电池充电}{检查}
-
-\checklistline{ESCU 电池电量}{检查}
-
-\checklistline{SRPS1电门}{接通}
-
-\checklistlinewithast{港口电源电门}{ON}
-
-\vspace{0.75em}\hspace{1em}\parbox{\textwidth-1em}{将主汇流条接入空间站电网。
-	注意：空间站侧的供电（400 V 和 21 kV）可通过
-	『轨道服务』界面控制。默认两路
-	均开启。}\vspace{0.75em}
-	
-	外部绕机检查确保飞机整体状态、可视部件和设备对于飞行是安全的。
-	每次首次飞行前，通常维护人员做全面检查，如果维护人员不在，可由飞行机组完
-	成。
-	
-
-\textbox{热启动}
-\checklisttext[3]{将主汇流条接入空间站电网。注意：空间站侧的供电（400 V 和 21 kV）可通过}
-
-\end{document}
+\begin{document}
+	%列表环境间距
+	\setlist{topsep=0.75ex,noitemsep}
+	%封面
+	\input{titlepage.tex}
+	\newpage
+	%页脚页眉初始化
+	\pagenumbering{arabic}
+	\pagestyle{fancy}
+	\setcounter{page}{1}
+	\chapter*{GEN 综合信息}
+	\newpage
+	\DUtitle{聚变反应堆启动}
+	\clitem{FI1,FI2,FI3}{激活}
+	\clitem[2em]{PFCU功率}{大于45GW}
+	\clitemast[2em]{燃料系统加温}{按需}
+	\clultitle{导航系统}
+	\clbsqtitle[2em]{XPS1,XPS2}
+	\clbctitle[4em]{SRPS1不工作}
+	\begin{attention_ch}
+		SEMS储存能量低于85GJ时,禁止启动聚变反应堆
+	\end{attention_ch}
+	\begin{warning_ch}
+		距离空间站距离小于100KM时,应当关闭反应堆
+	\end{warning_ch}
+	\end{document}	

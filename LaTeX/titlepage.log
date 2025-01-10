@@ -1,0 +1,145 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.9)  9 JAN 2025 19:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**titlepage.tex
+(./titlepage.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ^^I\begin{center}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.4 ^^I^^I{\Large
+                  \textbf{CSN造船厂}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 造 (U+9020) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 船 (U+8239) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 厂 (U+5382) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (32.1pt too wide) in paragraph at lines 4--4
+ \TU/lmr/bx/n/10 CSN造船厂 
+ []
+
+! Undefined control sequence.
+l.6 ^^I^^I{\Large
+                  \textbf{CSN F9}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (23.7pt too wide) in paragraph at lines 6--6
+ []\TU/lmr/bx/n/10 CSN 
+ []
+
+
+Overfull \hbox (12.99pt too wide) in paragraph at lines 6--6
+ \TU/lmr/bx/n/10 F9 
+ []
+
+! Undefined control sequence.
+l.8 ^^I^^I{\Large
+                  \textbf{飞行机组操作手册}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 飞 (U+98DE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 行 (U+884C) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 机 (U+673A) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 组 (U+7EC4) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 操 (U+64CD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 作 (U+4F5C) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 手 (U+624B) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no 册 (U+518C) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (22.4pt too wide) in paragraph at lines 8--8
+ []\TU/lmr/bx/n/10 飞行机组操作手册 
+ []
+
+! Undefined control sequence.
+l.11 ^^I^^I\doclicenseThis
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> titlepage.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 473852
+ 482 string characters out of 5733863
+ 386119 words of memory out of 5000000
+ 23180 multiletter control sequences out of 15000+600000
+ 558845 words of font info for 37 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 19i,1n,20p,88b,131s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
