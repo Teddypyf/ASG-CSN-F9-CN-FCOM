@@ -29,8 +29,9 @@
 \setsansfont[Scale=1,BoldFont={Noto Sans},ItalicFont={Noto Sans Light Italic}]{Noto Sans Light}
 \setmonofont[Scale=1]{MapleMono-NF-CN-Light}
 
-\setCJKmainfont[AutoFakeBold=1.25,AutoFakeSlant=0.15,Scale=1]{ZhuqueFangsong-Regular}
-\setCJKfallbackfamilyfont{\CJKrmdefault}[AutoFakeBold=3,AutoFakeSlant=0.2,Scale=1]{NotoSerifCJKsc-Regular}
+%\setCJKmainfont[AutoFakeBold=1.25,AutoFakeSlant=0.15,Scale=1]{ZhuqueFangsong-Regular}
+\setCJKmainfont[AutoFakeBold=3,AutoFakeSlant=0.2,Scale=1]{NotoSerifCJKsc-Regular.otf}
+%\setCJKfallbackfamilyfont{\CJKrmdefault}[AutoFakeBold=3,AutoFakeSlant=0.2,Scale=1]{NotoSerifCJKsc-Regular}
 \setCJKsansfont[Scale=1]{SarasaGothicSC-Light.ttf}
 \setCJKmonofont[Scale=1]{MapleMono-NF-CN-Regular}
 
@@ -71,6 +72,7 @@
 %color
 \definecolor{invpurple}{HTML}{40ffbf}
 \definecolor{F9blue}{HTML}{3350b1}
+\definecolor{琥珀}{HTML}{ff6600}
 % 水
 \providecolor{水蓝}{HTML}{d2f0f4}
 % 蓝
@@ -236,11 +238,19 @@
 \newcommand{\buildtimeCH}{编译时间: \zhtoday \zhcurrtime}
 
 \newcommand{\DUtitle}[1]{\framebox[\linewidth]{{\large \textbf{#1}}}\\}
+\newcommand{\DUtitlecolored}[2][white]{%
+	\fboxsep=2pt%
+	\fcolorbox{black}{#1}{%
+		\parbox{\linewidth-2\fboxsep}{\centering{\large \textbf{#2}}}\\%
+	}
+}
 \newcommand{\clitem}[3][0em]{\hspace*{#1} #2 \dotfill #3 \\}
 \newcommand{\clitemast}[3][0em]{\hspace*{#1} ${\ast} \text{#2}$ \dotfill #3 \\}
 \newcommand{\clultitle}[2][0em]{\hspace*{#1} \underline{\textbf{#2}} \\}
-\newcommand{\clbsqtitle}[2][0em]{\hspace*{#1} ${\blacksquare} \text{ #2}$ \\}
-\newcommand{\clbctitle}[2][0em]{\hspace*{#1} ${\bullet} \text{ #2}$ \\}
+\newcommand{\clbsqtitle}[2][0em]{\hspace*{#1} ${\blacksquare} \text{\textbf{ #2}}$ \\}
+\newcommand{\clbctitle}[2][0em]{\hspace*{#1} ${\bullet} \text{\textbf{ #2}}$ \\}
+
+
 \usepackage[
 type={CC},
 modifier={by-sa},
@@ -278,4 +288,7 @@ version={4.0},
 	\begin{warning_ch}
 		距离空间站距离小于100KM时,应当关闭反应堆
 	\end{warning_ch}
+	\DUtitlecolored[琥珀]{反应堆火警}
+	\clitem{FI1,FI2,FI3}{激活}
+	\clitem[2em]{PFCU功率}{大于45GW}
 	\end{document}	

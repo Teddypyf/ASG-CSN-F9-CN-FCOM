@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.10)  18 JAN 2025 16:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.10)  18 JAN 2025 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1272,38 +1272,30 @@ e=dflt;"
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 
-Package fontspec Info: Font family 'ZhuqueFangsong-Regular(0)' created for
-(fontspec)             font 'ZhuqueFangsong-Regular' with options
-(fontspec)             [Script={CJK},Scale={1},AutoFakeBold={1.25},AutoFakeSlan
-t={0.15}].
+Package fontspec Info: Font family 'NotoSerifCJKsc-Regular.otf(0)' created for
+(fontspec)             font 'NotoSerifCJKsc-Regular.otf' with options
+(fontspec)             [Script={CJK},Scale={1},AutoFakeBold={3},AutoFakeSlant={
+0.2}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;+smcp;"
+(fontspec)             <->s*[1]"[NotoSerifCJKsc-Regular.otf]/OT:script=hani;lan
+guage=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;embolden=1.25;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;embolden=1.25;+smcp;"
+(fontspec)             <->s*[1]"[NotoSerifCJKsc-Regular.otf]/OT:script=hani;lan
+guage=dflt;embolden=3;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;slant=0.15;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;slant=0.15;+smcp;"
+(fontspec)             <->s*[1]"[NotoSerifCJKsc-Regular.otf]/OT:script=hani;lan
+guage=dflt;slant=0.2;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;embolden=1.25;slant=0.15;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"ZhuqueFangsong-Regular/OT:script=hani;language=
-dflt;embolden=1.25;slant=0.15;+smcp;"
+(fontspec)             <->s*[1]"[NotoSerifCJKsc-Regular.otf]/OT:script=hani;lan
+guage=dflt;embolden=3;slant=0.2;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
@@ -2256,23 +2248,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package thmtools Info: Key `within' (with value `section')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=bluethm' on input line 109.
+(thmtools)             that uses `style=bluethm' on input line 111.
 Package thmtools Info: Key `within' (with value `section')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=peachredthm' on input line 111.
+(thmtools)             that uses `style=peachredthm' on input line 113.
 Package thmtools Info: Key `within' (with value `section')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=danredthm' on input line 113.
+(thmtools)             that uses `style=danredthm' on input line 115.
 Package thmtools Info: Key `within' (with value `section')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=greenthm' on input line 115.
+(thmtools)             that uses `style=greenthm' on input line 117.
 Package thmtools Info: Key `within' (with value `section')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=yellowthm' on input line 117.
+(thmtools)             that uses `style=yellowthm' on input line 119.
 \c@theorem=\count659
 
 (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -2341,60 +2333,60 @@ Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
 ) (./CSN_F9_FCOM.aux)
 \openout1 = `CSN_F9_FCOM.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/notomi/m/it on input line 256.
+LaTeX Font Info:    Checking defaults for OML/notomi/m/it on input line 266.
 LaTeX Font Info:    Trying to load font information for OML+notomi on input lin
-e 256.
+e 266.
 
 (c:/texlive/2023/texmf-dist/tex/latex/notomath/omlnotomi.fd
 File: omlnotomi.fd 2014/04/14 Fontinst v1.933 font definitions for OML/notomi.
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 266.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-56.
+66.
 
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 266.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-256.
+266.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 266.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 256.
+ 266.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 266.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 256.
+e 266.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2430,8 +2422,8 @@ LaTeX Font Info:    ... okay on input line 256.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 256.
-LaTeX Info: Command `\ddddot' is already robust on input line 256.
+LaTeX Info: Command `\dddot' is already robust on input line 266.
+LaTeX Info: Command `\ddddot' is already robust on input line 266.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2440,15 +2432,15 @@ Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/NotoSerifLight(0)/m/n --> TS1/NotoSerifLight(0)/b/n
- on input line 256.
-Package gensymb Info: Math companion symbols declared on input line 256.
-LaTeX Info: Redefining \degree on input line 256.
-LaTeX Info: Redefining \celsius on input line 256.
+ on input line 266.
+Package gensymb Info: Math companion symbols declared on input line 266.
+LaTeX Info: Redefining \degree on input line 266.
+LaTeX Info: Redefining \celsius on input line 266.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 256.
-LaTeX Info: Redefining \ohm on input line 256.
-Package gensymb Info: Using \textohm for \ohm on input line 256.
-Package gensymb Info: Using \textmu for \micro on input line 256.
+erthousand on input line 266.
+LaTeX Info: Redefining \ohm on input line 266.
+Package gensymb Info: Using \textohm for \ohm on input line 266.
+Package gensymb Info: Using \textmu for \micro on input line 266.
 \c__nicematrix_shift_Ldots_last_row_dim=\dimen430
 \c__nicematrix_shift_exterior_Vdots_dim=\dimen431
 \c__nicematrix_innersep_middle_dim=\dimen432
@@ -2479,56 +2471,29 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CSN_F9_FCOM.bbl' not found.
 
 No file CSN_F9_FCOM.bbl.
-Package biblatex Info: Reference section=0 on input line 256.
-Package biblatex Info: Reference segment=0 on input line 256.
+Package biblatex Info: Reference section=0 on input line 266.
+Package biblatex Info: Reference segment=0 on input line 266.
 
-Package chemgreek Info: Activating mapping `default' on line 256.
+Package chemgreek Info: Activating mapping `default' on line 266.
 
 \c@lstlisting=\count670
-Package hyperref Info: Link coloring ON on input line 256.
+Package hyperref Info: Link coloring ON on input line 266.
 (./CSN_F9_FCOM.out) (./CSN_F9_FCOM.out)
 \@outlinefile=\write5
 \openout5 = `CSN_F9_FCOM.out'.
 
  (./titlepage.tex
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
+(Font)              scaled to size 24.88pt on input line 4.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
-LaTeX Font Info:    Font shape `TU/NotoSansLight(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 4.
-
-Package fontspec Info: Font family 'SarasaGothicSC-Light.ttf(0)' created for
-(fontspec)             font 'SarasaGothicSC-Light.ttf' with options
-(fontspec)             [Script={CJK},Scale={1}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SarasaGothicSC-Light.ttf]/OT:script=hani;langu
-age=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SarasaGothicSC-Light.ttf]/OT:script=hani;langu
-age=dflt;+smcp;"
-
-LaTeX Font Info:    Font shape `TU/NotoSansLight(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
-
-
-LaTeX Font Warning: Font shape `TU/SarasaGothicSC-Light.ttf(0)/b/n' undefined
-(Font)              using `TU/SarasaGothicSC-Light.ttf(0)/m/n' instead on input
- line 4.
-
-LaTeX Font Info:    Font shape `TU/SarasaGothicSC-Light.ttf(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
+(Font)              scaled to size 24.88pt on input line 4.
+LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 4.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 6.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 6.
-LaTeX Font Info:    Font shape `TU/NotoSansLight(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 6.
-LaTeX Font Info:    Font shape `TU/SarasaGothicSC-Light.ttf(0)/b/n' will be
+LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 6.
 File: Picture/F9_titlepic.png Graphic file (type bmp)
 <Picture/F9_titlepic.png>
@@ -2647,34 +2612,37 @@ File: doclicense-CC-by-sa-88x31.pdf Graphic file (type pdf)
 [1
 
 
-])
-LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 266.
-LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 266.
-LaTeX Font Info:    Font shape `TU/ZhuqueFangsong-Regular(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 266.
- [1
+]) [1
 
 ]
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 268.
+(Font)              scaled to size 14.4pt on input line 278.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 268.
-LaTeX Font Info:    Font shape `TU/ZhuqueFangsong-Regular(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 268.
-LaTeX Font Info:    Font shape `TU/ZhuqueFangsong-Regular(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 269.
+(Font)              scaled to size 14.4pt on input line 278.
+LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 278.
+LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 279.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 8.8pt on input line 271.
+(Font)              scaled to size 8.8pt on input line 281.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 6.6pt on input line 271.
+(Font)              scaled to size 6.6pt on input line 281.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 272.
-LaTeX Font Info:    Font shape `TU/ZhuqueFangsong-Regular(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 272.
+(Font)              scaled to size 12.0pt on input line 282.
+LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 282.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--287
+
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 291--294
+[][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--294
 
  []
 
@@ -2710,11 +2678,11 @@ Package logreq Info: Writing requests to 'CSN_F9_FCOM.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61341 strings out of 475584
- 1334662 string characters out of 5777100
- 2258990 words of memory out of 5000000
- 81649 multiletter control sequences out of 15000+600000
- 574675 words of font info for 151 fonts, out of 8000000 for 9000
+ 61314 strings out of 475584
+ 1333556 string characters out of 5777100
+ 2260873 words of memory out of 5000000
+ 81629 multiletter control sequences out of 15000+600000
+ 574635 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  91i,11n,126p,876b,32890s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
