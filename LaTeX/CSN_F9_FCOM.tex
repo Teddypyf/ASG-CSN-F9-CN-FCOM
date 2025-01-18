@@ -237,12 +237,17 @@
 \newcommand{\buildtime}{Build at \DTMNow}
 \newcommand{\buildtimeCH}{编译时间: \zhtoday \zhcurrtime}
 
-\newcommand{\DUtitle}[1]{\framebox[\linewidth]{{\large \textbf{#1}}}\\}
+\newcommand{\DUtitle}[1]{
+	\fboxsep=2pt%
+	\fboxrule=1pt%
+	\framebox[\linewidth]{{\large \textbf{#1}}}\\}
+\newcommand{\DUtitlenoframed}[1]{\parbox{\linewidth}{\centering{\large \textbf{#1}}}\\}
 \newcommand{\DUtitlecolored}[2][white]{%
 	\fboxsep=2pt%
+	\fboxrule=1pt%
 	\fcolorbox{black}{#1}{%
-		\parbox{\linewidth-2\fboxsep}{\centering{\large \textbf{#2}}}\\%
-	}
+		\parbox{\linewidth-2\fboxsep-2\fboxrule}{\centering{\large \textbf{#2}}}%
+	}\\
 }
 \newcommand{\clitem}[3][0em]{\hspace*{#1} #2 \dotfill #3 \\}
 \newcommand{\clitemast}[3][0em]{\hspace*{#1} ${\ast} \text{#2}$ \dotfill #3 \\}
@@ -289,6 +294,4 @@ version={4.0},
 		距离空间站距离小于100KM时,应当关闭反应堆
 	\end{warning_ch}
 	\DUtitlecolored[琥珀]{反应堆火警}
-	\clitem{FI1,FI2,FI3}{激活}
-	\clitem[2em]{PFCU功率}{大于45GW}
 	\end{document}	

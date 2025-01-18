@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.10)  18 JAN 2025 16:47
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.10)  18 JAN 2025 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2333,60 +2333,60 @@ Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
 ) (./CSN_F9_FCOM.aux)
 \openout1 = `CSN_F9_FCOM.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/notomi/m/it on input line 266.
+LaTeX Font Info:    Checking defaults for OML/notomi/m/it on input line 271.
 LaTeX Font Info:    Trying to load font information for OML+notomi on input lin
-e 266.
+e 271.
 
 (c:/texlive/2023/texmf-dist/tex/latex/notomath/omlnotomi.fd
 File: omlnotomi.fd 2014/04/14 Fontinst v1.933 font definitions for OML/notomi.
 )
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 271.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-66.
+71.
 
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 271.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-266.
+271.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 271.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 266.
+ 271.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 271.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 266.
+e 271.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2422,8 +2422,8 @@ LaTeX Font Info:    ... okay on input line 266.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 266.
-LaTeX Info: Command `\ddddot' is already robust on input line 266.
+LaTeX Info: Command `\dddot' is already robust on input line 271.
+LaTeX Info: Command `\ddddot' is already robust on input line 271.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2432,15 +2432,15 @@ Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/NotoSerifLight(0)/m/n --> TS1/NotoSerifLight(0)/b/n
- on input line 266.
-Package gensymb Info: Math companion symbols declared on input line 266.
-LaTeX Info: Redefining \degree on input line 266.
-LaTeX Info: Redefining \celsius on input line 266.
+ on input line 271.
+Package gensymb Info: Math companion symbols declared on input line 271.
+LaTeX Info: Redefining \degree on input line 271.
+LaTeX Info: Redefining \celsius on input line 271.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 266.
-LaTeX Info: Redefining \ohm on input line 266.
-Package gensymb Info: Using \textohm for \ohm on input line 266.
-Package gensymb Info: Using \textmu for \micro on input line 266.
+erthousand on input line 271.
+LaTeX Info: Redefining \ohm on input line 271.
+Package gensymb Info: Using \textohm for \ohm on input line 271.
+Package gensymb Info: Using \textmu for \micro on input line 271.
 \c__nicematrix_shift_Ldots_last_row_dim=\dimen430
 \c__nicematrix_shift_exterior_Vdots_dim=\dimen431
 \c__nicematrix_innersep_middle_dim=\dimen432
@@ -2471,13 +2471,13 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CSN_F9_FCOM.bbl' not found.
 
 No file CSN_F9_FCOM.bbl.
-Package biblatex Info: Reference section=0 on input line 266.
-Package biblatex Info: Reference segment=0 on input line 266.
+Package biblatex Info: Reference section=0 on input line 271.
+Package biblatex Info: Reference segment=0 on input line 271.
 
-Package chemgreek Info: Activating mapping `default' on line 266.
+Package chemgreek Info: Activating mapping `default' on line 271.
 
 \c@lstlisting=\count670
-Package hyperref Info: Link coloring ON on input line 266.
+Package hyperref Info: Link coloring ON on input line 271.
 (./CSN_F9_FCOM.out) (./CSN_F9_FCOM.out)
 \@outlinefile=\write5
 \openout5 = `CSN_F9_FCOM.out'.
@@ -2616,33 +2616,28 @@ File: doclicense-CC-by-sa-88x31.pdf Graphic file (type pdf)
 
 ]
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 278.
+(Font)              scaled to size 14.4pt on input line 283.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 278.
+(Font)              scaled to size 14.4pt on input line 283.
 LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 278.
+(Font)              scaled to size 14.4pt on input line 283.
 LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 279.
+(Font)              scaled to size 12.0pt on input line 284.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 8.8pt on input line 281.
+(Font)              scaled to size 8.8pt on input line 286.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/m/n' will be
-(Font)              scaled to size 6.6pt on input line 281.
+(Font)              scaled to size 6.6pt on input line 286.
 LaTeX Font Info:    Font shape `TU/NotoSerifLight(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 282.
+(Font)              scaled to size 12.0pt on input line 287.
 LaTeX Font Info:    Font shape `TU/NotoSerifCJKsc-Regular.otf(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 282.
+(Font)              scaled to size 12.0pt on input line 287.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--287
+Underfull \hbox (badness 10000) in paragraph at lines 283--292
 
  []
 
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 291--294
-[][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--294
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
@@ -2663,25 +2658,17 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `CSN_F9_FCOM.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                CSN_F9_FCOM
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'CSN_F9_FCOM.run.xml'.
 \openout1 = `CSN_F9_FCOM.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61314 strings out of 475584
- 1333556 string characters out of 5777100
- 2260873 words of memory out of 5000000
- 81629 multiletter control sequences out of 15000+600000
+ 61315 strings out of 475584
+ 1333571 string characters out of 5777100
+ 2259911 words of memory out of 5000000
+ 81630 multiletter control sequences out of 15000+600000
  574635 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  91i,11n,126p,876b,32890s stack positions out of 10000i,1000n,20000p,200000b,200000s
